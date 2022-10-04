@@ -920,7 +920,32 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+    .cards{
+        overflow-x: scroll;
+        width: 100%;
+        margin: 0px;
+    }
+    .hist{
+        width: 60%;
+    }
+    .container{
+       
+    }
+    .text{
+        width: 40%;
+        margin: 10px;
+    }
+    .imgcafe{
+        margin: 30px;
+    }
+    .hist{
+        width: 100%;
+    }
+    .sobre{
+        margin: 0px 10px;
+    }
+    
     #menu__toggle {
         opacity: 0;
     }
@@ -975,7 +1000,6 @@ body::-webkit-scrollbar-thumb {
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     }
 
-    /* элементы меню */
     .menu__item {
         display: block;
         padding: 12px 24px;
